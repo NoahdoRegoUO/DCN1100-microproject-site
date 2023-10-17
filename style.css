@@ -1,3 +1,5 @@
+/* MAIN STYLES */
+
 body,
 html {
   padding: 0px;
@@ -11,6 +13,9 @@ div,
 p {
   font-size: 20px;
 }
+
+/* LOADING STYLES */
+
 #loading {
   width: 100vw;
   height: 100vh;
@@ -39,6 +44,9 @@ p {
     transform: rotate(360deg);
   }
 }
+
+/* HEADER + TITLE STYLES */
+
 #header {
   width: 80%;
   padding: 4% 10%;
@@ -62,6 +70,13 @@ p {
   animation: Gradient 20s ease infinite;
   font-family: "Nunito", sans-serif;
 }
+#tagline {
+  font-size: 50px;
+  margin-top: 300px;
+}
+
+/* LINK STYLES */
+
 #links {
   margin: 40px 0px;
   transition: ease-in-out;
@@ -78,6 +93,9 @@ p {
 #links a:hover {
   border-bottom: 2px solid #fff;
 }
+
+/* BACKGROUND IMAGE */
+
 #middle {
   width: 100%;
   height: 80vh;
@@ -93,10 +111,9 @@ p {
   transition: 1s ease-in-out;
   padding-top: 10vh;
 }
-#tagline {
-  font-size: 50px;
-  margin-top: 300px;
-}
+
+/* CONTENT STYLES */
+
 #content {
   width: 80%;
   padding: 2% 10%;
@@ -229,6 +246,8 @@ p {
     opacity: 1;
   }
 }
+
+/* SCROLLING BRANDS */
 
 .container {
   margin-top: 200px;
